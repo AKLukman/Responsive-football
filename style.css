@@ -9,6 +9,7 @@ body{
 header{
     background-color: #2D25A0;
     width: 1440px;
+    height: 618px;
     
 }
 
@@ -17,19 +18,31 @@ header{
 .second-header{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0 100px;
+    justify-content: center;
+    
+    
 }
-
+.copa{
+    margin-right: 51px;
+    margin-top: 144px;
+    margin-bottom: 213px;
+}
+.copa-image{
+    margin-top: 153px;
+    margin-bottom: 86px;
+}
 .copa-image img{
     width: 556.01px;
     height: 438px;
+    margin-left: 51px;
 }
 
 .title-style{
     font-weight: bold;
     font-size: 64px;
     color: #ffffff;
+    margin-bottom: 27px;
+    
     
 }
 a{
@@ -38,10 +51,14 @@ a{
     background-color: #E02C6D;
     color: #ffffff;
     font-size: 16px;
-    font-weight: 500;
-    margin-bottom: 300px;
-    
+    font-weight: 500;   
 }
 a i{
     padding-left: 5px;
+}
+
+/* Player section */
+.player img{
+    width: 300px;
+    height: 256px;
 }
