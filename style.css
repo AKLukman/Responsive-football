@@ -1,0 +1,47 @@
+/* -------Fonts----------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* header-section */
+header{
+    background-color: #2D25A0;
+    width: 1440px;
+    
+}
+
+
+
+.second-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 100px;
+}
+
+.copa-image img{
+    width: 556.01px;
+    height: 438px;
+}
+
+.title-style{
+    font-weight: bold;
+    font-size: 64px;
+    color: #ffffff;
+    
+}
+a{
+    text-decoration: none;
+    padding: 10px 19px;
+    background-color: #E02C6D;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 300px;
+    
+}
+a i{
+    padding-left: 5px;
+}
