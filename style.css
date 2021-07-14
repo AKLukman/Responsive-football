@@ -11,6 +11,7 @@ header{
     background-color: #2D25A0;
     height: 677px;
     
+    
 }
 
 
@@ -106,6 +107,10 @@ header{
     margin: 0 180px;
     column-gap: 66px;
     
+    
+}
+.match{
+    margin-bottom: 100px;
 }
 .match-title{
     color: #0A0826;
@@ -170,4 +175,44 @@ li a i{
     margin-left: 50px;
     font-size: 24px;
     margin-top: 20px;
+}
+
+/* Media-query for mobile device */
+@media only screen and (max-width:688px) {
+    .second-header{
+        flex-direction: column;
+        width: 1440px;
+        
+    }
+    .title-style{
+        font-size: 36px;
+        line-height: 50px;
+        
+    }
+    .copa-image img{
+        width:329px;
+        height: 259.17px;
+        margin-top: 50px;
+
+    }
+    .players{
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+    }
+    .match-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .match-title{
+        font-size: 30px;
+    }
+    .match-image img{
+        width: 328px;
+        height: 248px;
+    }
+    footer img{
+        width: 275px;
+        height: 92.8px;
+    }
+
 }
