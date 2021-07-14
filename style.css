@@ -101,7 +101,7 @@ header{
 }
 
 /* Match section */
-.match-container{
+/*.match-container{
     display: flex;
     justify-content: center;
     margin: 0 180px;
@@ -131,7 +131,7 @@ header{
 .match a{
     margin-top: 40px;
 
-}
+}*/
 
 /* Match sections end */
 
@@ -144,6 +144,7 @@ header{
     justify-content: center;
     align-items: center;
     margin-top: 158px;
+    margin-bottom: 63px;
 }
 .total-footer img{
     
@@ -161,11 +162,11 @@ ul li{
 }
 li a i{
     color: gray;
-    background-color: #969BAB;
+    background-color: #C0C0C0;
     margin: 14px;
     margin-top: 10px;
     padding: 3px 8px;
-    border-radius: 50px;
+    border-radius: 40%;
 }
 .total-footer p{
     color: #000000;
