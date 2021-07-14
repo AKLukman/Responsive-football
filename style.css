@@ -232,17 +232,8 @@ li a i{
         grid-template-columns: repeat(1,1fr);
         justify-content: center;
     }
-    .match-container{
-        flex-direction: column;
-        justify-content: center;
-    }
-    .match-title{
-        font-size: 30px;
-    }
-    .match-image img{
-        width: 328px;
-        height: 248px;
-    }
+   
+    
     .partner-container{
         background-color: #DC143C;
         box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -256,7 +247,7 @@ li a i{
     }
     .partner-container h2{
         font-size: 24px;
-        color: black;
+        
         font-weight: 700;
     }
     .partner img{
@@ -267,7 +258,7 @@ li a i{
         margin-bottom: 50px;
     }
     .total-footer{
-        margin-top: 20px;
+        margin-top: 100px;
     }
     .total-footer img{
         width: 275px;
