@@ -37,6 +37,10 @@ header{
     
     
 }
+.copa-image img:hover{
+    transform: scale(1.2);
+    transition: 2s ease-in-out;
+}
 
 .title-style{
     font-weight: bold;
@@ -58,9 +62,9 @@ header{
 .link-button .fa-arrow-right{
     padding-left: 10px;
 }
-.link-button:hover .fa-arrow-right{
-    transform: scale(1.5);
-    transition: 1s ease-in-out;
+.link-button:hover .fa-arrow-right{ 
+    transform: scale(2);
+    transition: all 2s ease-in-out;
 }
 
 /* Players section */
@@ -99,48 +103,24 @@ header{
     margin-bottom: 18px;
     color: #6C6C6C;
 }
+/* End Players section */
 
-/* Match section */
-/*.match-container{
-    display: flex;
-    justify-content: center;
-    margin: 0 180px;
-    column-gap: 66px;
+
+/* News section */
+
+    .news h2{
+        font-size: 48px;
+        margin-left: 179px;
+    }
     
-    
-}
-.match{
-    margin-bottom: 100px;
-}
-.match-title{
-    color: #0A0826;
-    font-size: 48px;
-    font-weight: 700;
-}
-.highlights-info{
-    font-size: 16px;
-    line-height: 28px;
-    color: #6C6C6C;
-    margin-top: -45px;
-    margin-bottom: 24px;
-}
-.match-image img{
-    width: 567px;
-    height: 427px;
-}
-.match a{
-    margin-top: 40px;
 
-}*/
+/* news sections end */
 
-/* Match sections end */
+/* Partnership sections end */
 .partner-container{
     background-color: #DC143C;
-    /* box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15); */
-    /* border-radius: 10px; */
     width: 100%;
     text-align: center;
-    /* margin-left: 184px; */
     padding: 30px 0;
 }
 .partner-container h2{
@@ -164,14 +144,12 @@ header{
 .partner img{
     width: 90px;
 }
-/* Start partnerships section */
-
-
 
 /* End partnerships section */
 
-/* Start Footer-section  */
 
+
+/* Start Footer-section  */
 
 .total-footer{
     display: flex;
