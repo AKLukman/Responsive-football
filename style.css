@@ -245,12 +245,12 @@ li a i{
         
     }
     .partner-container h2{
-        font-size: 24px;
+        font-size: 30px;
         font-weight: 700;
         color: #ffffff;
     }
     .partner img{
-        width: 90%;
+        width: 30%;
         margin-top: 10px;
     }
     .partner img:first-child{
@@ -260,7 +260,7 @@ li a i{
         margin-top: 80px;
     }
     .total-footer img{
-        width: 90%;
+        width: 70%;
         /* height: 92.8px; */
     }
 
