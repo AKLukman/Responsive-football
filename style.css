@@ -144,8 +144,9 @@ header{
     padding: 30px 0;
 }
 .partner-container h2{
+    margin-top: 0px;
     margin-bottom: 40px;
-    /* color: #ffffff; */
+    color: #ffffff;
     font-size: 40px;
 }
 .partnerships{
@@ -242,9 +243,31 @@ li a i{
         width: 328px;
         height: 248px;
     }
+    .partner-container{
+        background-color: #DC143C;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+        border-radius: 10px;
+        
+    }
     .partnerships{
         grid-template-columns: repeat(1,1fr);
         justify-content: center;
+        
+    }
+    .partner-container h2{
+        font-size: 24px;
+        color: black;
+        font-weight: 700;
+    }
+    .partner img{
+        width: 120px;
+        margin-top: 10px;
+    }
+    .partner img:first-child{
+        margin-bottom: 50px;
+    }
+    .total-footer{
+        margin-top: 20px;
     }
     .total-footer img{
         width: 275px;
