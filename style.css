@@ -114,6 +114,8 @@ header{
         font-weight: 700;
     }
     
+   
+    
 
 /* news sections end */
 
@@ -216,9 +218,9 @@ li a i{
         
         font-size: 30px;
         font-weight: 700;
-       position: relative;
-       right: 85px;
-       margin-bottom: -30px;
+        position: relative;
+        right: 85px;
+        margin-bottom: -30px;
     }
     
     .partner-container{
@@ -252,4 +254,41 @@ li a i{
         height: 92.8px;
     }
 
+}
+
+/* Tab media query */
+@media only screen and (min-width:688px) and (max-width:992px){
+    .second-header{
+        flex-direction: column;
+        width: 1440px;
+        
+    }
+    .title-style{
+        font-size: 36px;
+        line-height: 50px;
+        
+    }
+    .copa-image img{
+        width:329px;
+        height: 259.17px;
+        margin-top: 50px;
+
+    }
+    .players{
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+    }
+    .news h2{
+        
+        font-size: 30px;
+        font-weight: 700;
+        position: relative;
+        left: 110px;
+        margin-bottom: -30px;
+    }
+    .partnerships{
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        
+    }
 }
